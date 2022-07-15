@@ -9,9 +9,9 @@ export default function TopBar() {
                 <Navbar.Brand style={{margin: "5px 0 0 20px"}} href="#home"><img src="https://d2guulkeunn7d8.cloudfront.net/assets/beetstrap/brand/instacart-logo-color-4db9d81ca0b7638befdc4bd331f64a2633df790c0b55ef627c99b1ba77af72b7.svg" alt='test' /> </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto"> 
+                    <Nav className="ms-auto"> 
                     </Nav>
-                    <Nav style={{padding: "24px 40px 20px 40px", fontSize: "18px", lineHeight: "26px", fontWeight: "bolder", display: "flex" }} >
+                    <Nav style={{padding: "24px 40px 20px 1000px", fontSize: "18px", lineHeight: "26px", fontWeight: "bolder", display: "flex", justifyContent: "flex-end" }} >
                         <Nav.Link style={{color: "#343538"}} href="#LogIn">Log In</Nav.Link>
                         <Button variant="success" style={{fontSize: "18px"}}>Sign Up</Button>{' '}
                     </Nav>
